@@ -1,0 +1,36 @@
+# Core Web UI
+streamlit==1.38.0
+
+# PDF processing
+PyMuPDF==1.24.9           # (imported as pymupdf)
+pdfplumber==0.11.0        # optional if you want better table extraction
+camelot-py[cv]==0.11.0    # optional for advanced table parsing
+tabula-py==2.9.0          # optional Java-based table extractor
+pikepdf==9.0.0            # for PDF repair and cleanup
+
+# Data processing
+pandas==2.2.2
+numpy==1.26.4
+
+# Image processing
+Pillow==10.4.0
+
+# Visualization (optional but useful for analytics page)
+matplotlib==3.9.2
+plotly==5.24.1
+
+# Google Gemini API
+google-generativeai==0.8.3
+
+# Misc
+tqdm==4.66.5
+requests==2.32.3
+python-dotenv==1.0.1
+
+# Optional (for OCR fallback or text analytics)
+pytesseract==0.3.13
+regex==2024.9.11
+
+# System & file utilities
+pathlib
+uuid
